@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* Leaflet visual overrides to match a clean and modern dark Bento theme */
+.leaflet-container {
+  font-family: inherit;
+  background-color: #0F172A; /* slate-900 */
+}
+
+/* Custom styles for Leaflet popups in Dark Slate styling */
+.leaflet-popup-content-wrapper {
+  background-color: #1E293B !important; /* slate-800 */
+  color: #f1f5f9 !important; /* slate-100 */
+  border-radius: 16px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid #334155 !important; /* slate-700 */
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px !important;
+  line-height: inherit !important;
+}
+
+.leaflet-popup-tip-container {
+  display: none !important; /* Clean bubble style without distracting triangle pointer */
+}
+
+/* Custom Marker Pulsing styling */
+.custom-weather-marker {
+  background: none !important;
+  border: none !important;
+}
+
+/* Custom premium scrollbar for Preset Selector and suggestions */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

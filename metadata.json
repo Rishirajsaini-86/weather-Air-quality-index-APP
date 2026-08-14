@@ -1,0 +1,8 @@
+{
+  "name": "Weather & Air Quality Index Map",
+  "description": "An interactive web application providing real-time weather forecasts and air quality index (AQI) reports for cities worldwide, complete with hourly trends and localized mapping.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
